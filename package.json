@@ -1,0 +1,38 @@
+{
+  "name": "@ddatabase/vaultr",
+  "version": "0.1.1",
+  "description": "Library For Vaulting dDrives and dDatabases.",
+  "contributors": [
+    "Jared Rice Sr. <jared@dwebs.io>",
+    "Distributed Webs Project, LLC. <labs@distributedwebs.org>"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && tape test/*.js"
+  },
+  "dependencies": {
+    "@ddatabase/core": "ddatabase/core#master",
+    "@ddatabase/protocol": "ddatabase/protocol#master",
+    "@dwcore/channel": "dwcore/channel#master",
+    "@dwcore/dethunk": "dwcore/dethunk#master",
+    "@dwcore/dws2": "dwcore/dws2#master",
+    "@dwcore/ref": "dwcore/ref#master",
+    "@dwcore/dcat": "dwcore/dcat#master",
+    "@flockcore/presets": "flockcore/presets#master",
+    "@flockcore/revelation": "flockcore/revelation#master",
+    "debug": "^2.6.8",
+    "to-buffer": "^1.1.0",
+    "xtend": "^4.0.1"
+  },
+  "devDependencies": {
+    "@ddrive/core": "ddrives/core#master",
+    "@dwcore/rem": "dwcore/rem#master",
+    "standard": "^10.0.2",
+    "tape": "^4.7.0",
+    "temporary-directory": "^1.0.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
