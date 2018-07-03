@@ -6,7 +6,7 @@ var dethunk = require('@dwcore/dethunk')
 var toBuffer = require('to-buffer')
 var util = require('util')
 var events = require('events')
-var datcat = require('@dwcore/dcat')
+var dcat = require('@dwcore/dcat')
 var dWebChannel = require('@dwcore/channel')
 var dWebStreams2 = require('@dwcore/dws2')
 var debug = require('debug')('@ddatabase/vaultr')
@@ -197,7 +197,7 @@ Vaultr.prototype.import = function (key, cb) {
   this.ready(function (err) {
     if (err) return cb(err)
     var keys = {}
-    var ddbs = datcat(key)
+    var ddbs = dcat(key)
     var collect = function (item, enc, next) {
       try { item = JSON.parse(item) } catch (e) { return next(e) }
       if (!item.type && !item.key) return next(new Error('ddb does not contain importable keys'))

@@ -18,7 +18,7 @@
     "@dwcore/dcat": "dwcore/dcat#master",
     "@dwcore/dethunk": "dwcore/dethunk#master",
     "@dwcore/dws2": "dwcore/dws2#master",
-    "@dwcore/ref": "dwcore/ref#master",
+    "@dwcore/ref": "*",
     "@flockcore/presets": "flockcore/presets#master",
     "@flockcore/revelation": "flockcore/revelation#master",
     "debug": "^2.6.8",
@@ -27,7 +27,7 @@
   },
   "devDependencies": {
     "@ddrive/core": "ddrives/core#master",
-    "@dwcore/rem": "dwcore/rem#master",
+    "@dwcore/rem": "*",
     "standard": "^10.0.2",
     "tape": "^4.7.0",
     "temporary-directory": "^1.0.2"
