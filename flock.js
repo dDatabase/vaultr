@@ -5,7 +5,7 @@ var defaults = require('@flockcore/presets')
 module.exports = flock
 
 function flock (vaultr, opts) {
-  var port = (opts && opts.port) || 3282
+  var port = (opts && opts.port) || 6620
   var flockOpts = xtend({
     hash: false,
     stream: function (opts) {
