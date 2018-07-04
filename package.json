@@ -1,6 +1,6 @@
 {
   "name": "@ddatabase/vaultr",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Library For Vaulting dDrives and dDatabases.",
   "contributors": [
     "Jared Rice Sr. <jared@dwebs.io>",
