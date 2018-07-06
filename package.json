@@ -1,6 +1,6 @@
 {
   "name": "@ddatabase/vaultr",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Library For Vaulting dDrives and dDatabases.",
   "contributors": [
     "Jared Rice Sr. <jared@dwebs.io>",
@@ -12,15 +12,15 @@
     "test": "standard && tape test/*.js"
   },
   "dependencies": {
-    "@ddatabase/core": "ddatabase/core#master",
-    "@ddatabase/protocol": "ddatabase/protocol#master",
-    "@dwcore/channel": "dwcore/channel#master",
-    "@dwcore/dcat": "dwcore/dcat#master",
-    "@dwcore/dethunk": "dwcore/dethunk#master",
-    "@dwcore/dws2": "dwcore/dws2#master",
+    "@ddatabase/core": "*",
+    "@ddatabase/protocol": "*",
+    "@dwcore/channel": "*",
+    "@dwcore/dcat": "^0.1.4",
+    "@dwcore/dethunk": "*",
+    "@dwcore/dws2": "*",
     "@dwcore/ref": "*",
-    "@flockcore/presets": "flockcore/presets#master",
-    "@flockcore/revelation": "flockcore/revelation#master",
+    "@flockcore/presets": "*",
+    "@flockcore/revelation": "*",
     "debug": "^2.6.8",
     "to-buffer": "^1.1.0",
     "xtend": "^4.0.1"
