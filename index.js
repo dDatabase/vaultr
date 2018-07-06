@@ -9,7 +9,7 @@ var events = require('events')
 var dcat = require('@dwcore/dcat')
 var dWebChannel = require('@dwcore/channel')
 var dWebStreams2 = require('@dwcore/dws2')
-var debug = require('debug')('@ddatabase/vaultr')
+var debug = require('debug')('ddb-vaultr')
 
 module.exports = Vaultr
 

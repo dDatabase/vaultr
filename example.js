@@ -1,4 +1,4 @@
-var vaultr = require('@ddatabase/vaultr')
+var vaultr = require('./')
 var ddatabase = require('@ddatabase/core')
 
 var ar = vaultr('./my-vaultr') // also supports passing in a storage provider
